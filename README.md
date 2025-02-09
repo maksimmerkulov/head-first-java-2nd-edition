@@ -18,5 +18,6 @@
     - Page 12 — Example of a `while` loop
     - Page 13 — Conditional branching
     - Page 13 — Sharpen your pencil
+    - Page 14 — Coding a Serious Business Application
 
 ![Chapter 1](images/chapter-01.png)
