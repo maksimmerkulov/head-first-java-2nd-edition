@@ -15,5 +15,6 @@
 - 📂 Solutions are in folder: `com.headfirstjava.chapter01`
 - 📄 Exercises from the book:
     - Page 9 — Writing a class with a `main`
+    - Page 12 — Example of a `while` loop
 
 ![Chapter 1](images/chapter-01.png)
