@@ -36,5 +36,6 @@
   - Page 36 — Making your first object
   - Page 37 — Making and testing Movie objects
   - Page 38–40 — The Guessing Game
+  - Page 42 — BE the compiler
 
 ![Chapter 2](images/chapter-02.png)
