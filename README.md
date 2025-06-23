@@ -41,3 +41,13 @@
   - Page 44 — Pool Puzzle
 
 ![Chapter 2](images/chapter-02.png)
+
+---
+
+## 📘 Chapter 3. Primitives and References: Know Your Variables
+
+- 📂 Solutions are in folder: `chapter03`
+- 📄 Exercises from the book:
+  - Page 62 — A Dog example
+
+![Chapter 3](images/chapter-03.png)
