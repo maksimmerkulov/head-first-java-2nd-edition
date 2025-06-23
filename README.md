@@ -49,5 +49,6 @@
 - 📂 Solutions are in folder: `chapter03`
 - 📄 Exercises from the book:
   - Page 62 — A Dog example
+  - Page 63 — BE the compiler
 
 ![Chapter 3](images/chapter-03.png)
