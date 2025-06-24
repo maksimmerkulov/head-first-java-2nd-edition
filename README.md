@@ -66,5 +66,6 @@
   - Page 82 — Encapsulating the GoodDog class
   - Page 84 — Declaring and initializing instance variables
   - Page 88 — BE the compiler
+  - Page 90 — Mixed Messages
 
 ![Chapter 4](images/chapter-04.png)
