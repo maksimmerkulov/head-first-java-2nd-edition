@@ -54,3 +54,13 @@
   - Page 65 — Pool Puzzle
 
 ![Chapter 3](images/chapter-03.png)
+
+---
+
+## 📘 Chapter 4. Methods Use Instance Variables: How Objects Behave
+
+- 📂 Solutions are in folder: `chapter04`
+- 📄 Exercises from the book:
+  - Page 73 — The size affects the bark
+
+![Chapter 4](images/chapter-04.png)
