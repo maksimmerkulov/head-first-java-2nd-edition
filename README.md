@@ -67,5 +67,6 @@
   - Page 84 — Declaring and initializing instance variables
   - Page 88 — BE the compiler
   - Page 90 — Mixed Messages
+  - Page 91 — Pool Puzzle
 
 ![Chapter 4](images/chapter-04.png)
