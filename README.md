@@ -70,3 +70,13 @@
   - Page 91 — Pool Puzzle
 
 ![Chapter 4](images/chapter-04.png)
+
+---
+
+## 📘 Chapter 5. Writing a Program: Extra-Strength Methods
+
+- 📂 Solutions are in folder: `chapter05`
+- 📄 Exercises from the book:
+  - Page 96–113 — Let’s build a Battleship-style game: "Sink a Dot Com"
+
+![Chapter 5](images/chapter-05.png)
