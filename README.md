@@ -81,5 +81,6 @@
   - Page 115 — Trips through a loop
   - Page 118 — BE the JVM
   - Page 119 — Code Magnets
+  - Page 121 — Mixed Messages
 
 ![Chapter 5](images/chapter-05.png)
