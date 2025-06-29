@@ -84,3 +84,13 @@
   - Page 121 — Mixed Messages
 
 ![Chapter 5](images/chapter-05.png)
+
+---
+
+## 📘 Chapter 6. Get to Know The Java API: Using the Java Library
+
+- 📂 Solutions are in folder: `chapter06`
+- 📄 Exercises from the book:
+  - Page 139 — New and improved DotCom class
+
+![Chapter 6](images/chapter-06.png)
