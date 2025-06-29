@@ -92,5 +92,6 @@
 - 📂 Solutions are in folder: `chapter06`
 - 📄 Exercises from the book:
   - Page 139 — New and improved DotCom class
+  - Page 140–150, 152–153 — Let’s build the REAL game: "Sink a Dot Com"
 
 ![Chapter 6](images/chapter-06.png)
