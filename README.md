@@ -22,5 +22,6 @@
     - Page 16–17 — Phrase-O-Matic
     - Page 20 — Code Magnets
     - Page 21 — BE the compiler
+    - Page 23 — Mixed Messages
 
 ![Chapter 1](images/chapter-01.png)
