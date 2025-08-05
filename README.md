@@ -23,5 +23,6 @@
     - Page 20 — Code Magnets
     - Page 21 — BE the compiler
     - Page 23 — Mixed Messages
+    - Page 24 — Pool Puzzle
 
 ![Chapter 1](images/chapter-01.png)
