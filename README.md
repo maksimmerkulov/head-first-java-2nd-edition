@@ -7,3 +7,13 @@
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 
 ![Cover](images/cover.png)
+
+---
+
+## 📘 Chapter 1. Dive in A Quick Dip: Breaking the Surface
+
+- 📂 Solutions are in folder: `chapter01`
+- 📄 Exercises from the book:
+    - Page 9 — Writing a class with a `main`
+
+![Chapter 1](images/chapter-01.png)
