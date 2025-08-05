@@ -17,5 +17,6 @@
     - Page 9 — Writing a class with a `main`
     - Page 12 — Example of a `while` loop
     - Page 13 — Conditional branching
+    - Page 13 — Sharpen your pencil
 
 ![Chapter 1](images/chapter-01.png)
