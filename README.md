@@ -19,5 +19,6 @@
     - Page 13 — Conditional branching
     - Page 13 — Sharpen your pencil
     - Page 14 — Coding a Serious Business Application
+    - Page 16–17 — Phrase-O-Matic
 
 ![Chapter 1](images/chapter-01.png)
