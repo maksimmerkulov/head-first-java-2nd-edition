@@ -34,5 +34,6 @@
 - 📂 Solutions are in folder: `com.headfirstjava.chapter02`
 - 📄 Exercises from the book:
     - Page 36 — Making your first object
+    - Page 37 — Making and testing Movie objects
 
 ![Chapter 2](images/chapter-02.png)
