@@ -37,5 +37,6 @@
   - Page 37 — Making and testing Movie objects
   - Page 38–40 — The Guessing Game
   - Page 42 — BE the compiler
+  - Page 43 — Code Magnets
 
 ![Chapter 2](images/chapter-02.png)
