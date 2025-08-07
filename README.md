@@ -26,3 +26,13 @@
     - Page 24 — Pool Puzzle
 
 ![Chapter 1](images/chapter-01.png)
+
+---
+
+## 📘 Chapter 2. Classes and Objects: A Trip to Objectville
+
+- 📂 Solutions are in folder: `chapter02`
+- 📄 Exercises from the book:
+  - Page 36 — Making your first object
+
+![Chapter 2](images/chapter-02.png)
