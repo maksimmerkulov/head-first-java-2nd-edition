@@ -51,5 +51,6 @@
   - Page 62 — A Dog example
   - Page 63 — BE the compiler
   - Page 64 — Code Magnets
+  - Page 65 — Pool Puzzle
 
 ![Chapter 3](images/chapter-03.png)
