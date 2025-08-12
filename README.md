@@ -68,5 +68,6 @@
   - Page 85 — The difference between instance and local variables
   - Page 88 — BE the compiler
   - Page 90 — Mixed Messages
+  - Page 91 — Pool Puzzle
 
 ![Chapter 4](images/chapter-04.png)
