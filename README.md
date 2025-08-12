@@ -63,5 +63,6 @@
 - 📄 Exercises from the book:
   - Page 73 — The size affects the bark
   - Page 79 — Cool things you can do with parameters and return types
+  - Page 82 — Encapsulating the GoodDog class
 
 ![Chapter 4](images/chapter-04.png)
