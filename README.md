@@ -62,5 +62,6 @@
 - 📂 Solutions are in folder: `chapter04`
 - 📄 Exercises from the book:
   - Page 73 — The size affects the bark
+  - Page 79 — Cool things you can do with parameters and return types
 
 ![Chapter 4](images/chapter-04.png)
