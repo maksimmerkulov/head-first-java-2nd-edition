@@ -81,5 +81,6 @@
   - Page 96–113 — Let’s build a Battleship-style game: “Sink a Dot Com”
   - Page 115 — Trips through a loop
   - Page 118 — BE the JVM
+  - Page 119 — Code Magnets
 
 ![Chapter 5](images/chapter-05.png)
