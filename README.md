@@ -79,5 +79,6 @@
 - 📂 Solutions are in folder: `chapter05`
 - 📄 Exercises from the book:
   - Page 96–113 — Let’s build a Battleship-style game: “Sink a Dot Com”
+  - Page 115 — Trips through a loop
 
 ![Chapter 5](images/chapter-05.png)
