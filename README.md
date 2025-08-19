@@ -93,5 +93,6 @@
 - 📂 Solutions are in folder: `chapter06`
 - 📄 Exercises from the book:
   - Page 138 — Let’s fix the DotCom code
+  - Page 139 — New and improved DotCom class
 
 ![Chapter 6](images/chapter-06.png)
