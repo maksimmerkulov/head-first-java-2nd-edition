@@ -95,5 +95,6 @@
   - Page 138 — Let’s fix the DotCom code
   - Page 139 — New and improved DotCom class
   - Page 140–150, 152–153 — Let’s build the REAL game: “Sink a Dot Com”
+  - Page 161 — Code Magnets
 
 ![Chapter 6](images/chapter-06.png)
