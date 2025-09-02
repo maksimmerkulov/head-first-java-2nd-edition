@@ -98,3 +98,13 @@
   - Page 161 — Code Magnets
 
 ![Chapter 6](images/chapter-06.png)
+
+---
+
+## 📘 Chapter 7. Inheritance and Polymorphism: Better Living in Objectville
+
+- 📂 Solutions are in folder: `chapter07`
+- 📄 Exercises from the book:
+    - Page 192 — Mixed Messages
+
+![Chapter 7](images/chapter-07.png)
