@@ -106,5 +106,6 @@
 - 📂 Solutions are in folder: `chapter07`
 - 📄 Exercises from the book:
     - Page 192 — Mixed Messages
+    - Page 193 — BE the Compiler
 
 ![Chapter 7](images/chapter-07.png)
