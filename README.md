@@ -107,5 +107,6 @@
 - 📄 Exercises from the book:
     - Page 192 — Mixed Messages
     - Page 193 — BE the Compiler
+    - Page 194 — Pool Puzzle
 
 ![Chapter 7](images/chapter-07.png)
