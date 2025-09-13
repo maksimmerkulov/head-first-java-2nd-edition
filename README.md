@@ -120,5 +120,6 @@
     - Page 206 — Polymorphism in action
     - Page 207 — Uh-oh, now we need to keep Cats, too
     - Page 209 — So what’s in this ultra-super-megaclass Object?
+    - Page 232 — Pool Puzzle
 
 ![Chapter 8](images/chapter-08.png)
