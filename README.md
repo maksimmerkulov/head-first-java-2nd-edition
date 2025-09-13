@@ -33,12 +33,12 @@
 
 - 📂 Solutions are in folder: `chapter02`
 - 📄 Exercises from the book:
-  - Page 36 — Making your first object
-  - Page 37 — Making and testing Movie objects
-  - Page 38–40 — The Guessing Game
-  - Page 42 — BE the compiler
-  - Page 43 — Code Magnets
-  - Page 44 — Pool Puzzle
+    - Page 36 — Making your first object 
+    - Page 37 — Making and testing Movie objects 
+    - Page 38–40 — The Guessing Game 
+    - Page 42 — BE the compiler
+    - Page 43 — Code Magnets 
+    - Page 44 — Pool Puzzle
 
 ![Chapter 2](images/chapter-02.png)
 
@@ -48,10 +48,10 @@
 
 - 📂 Solutions are in folder: `chapter03`
 - 📄 Exercises from the book:
-  - Page 62 — A Dog example
-  - Page 63 — BE the compiler
-  - Page 64 — Code Magnets
-  - Page 65 — Pool Puzzle
+    - Page 62 — A Dog example 
+    - Page 63 — BE the compiler 
+    - Page 64 — Code Magnets 
+    - Page 65 — Pool Puzzle
 
 ![Chapter 3](images/chapter-03.png)
 
@@ -61,14 +61,14 @@
 
 - 📂 Solutions are in folder: `chapter04`
 - 📄 Exercises from the book:
-  - Page 73 — The size affects the bark
-  - Page 79 — Cool things you can do with parameters and return types
-  - Page 82 — Encapsulating the GoodDog class
-  - Page 84 — Declaring and initializing instance variables
-  - Page 85 — The difference between instance and local variables
-  - Page 88 — BE the compiler
-  - Page 90 — Mixed Messages
-  - Page 91 — Pool Puzzle
+    - Page 73 — The size affects the bark 
+    - Page 79 — Cool things you can do with parameters and return types 
+    - Page 82 — Encapsulating the GoodDog class 
+    - Page 84 — Declaring and initializing instance variables 
+    - Page 85 — The difference between instance and local variables 
+    - Page 88 — BE the compiler 
+    - Page 90 — Mixed Messages 
+    - Page 91 — Pool Puzzle
 
 ![Chapter 4](images/chapter-04.png)
 
@@ -78,11 +78,11 @@
 
 - 📂 Solutions are in folder: `chapter05`
 - 📄 Exercises from the book:
-  - Page 96–113 — Let’s build a Battleship-style game: “Sink a Dot Com”
-  - Page 115 — Trips through a loop
-  - Page 118 — BE the JVM
-  - Page 119 — Code Magnets
-  - Page 121 — Mixed Messages
+    - Page 96–113 — Let’s build a Battleship-style game: “Sink a Dot Com” 
+    - Page 115 — Trips through a loop 
+    - Page 118 — BE the JVM 
+    - Page 119 — Code Magnets 
+    - Page 121 — Mixed Messages
 
 ![Chapter 5](images/chapter-05.png)
 
@@ -92,10 +92,10 @@
 
 - 📂 Solutions are in folder: `chapter06`
 - 📄 Exercises from the book:
-  - Page 138 — Let’s fix the DotCom code
-  - Page 139 — New and improved DotCom class
-  - Page 140–150, 152–153 — Let’s build the REAL game: “Sink a Dot Com”
-  - Page 161 — Code Magnets
+    - Page 138 — Let’s fix the DotCom code 
+    - Page 139 — New and improved DotCom class 
+    - Page 140–150, 152–153 — Let’s build the REAL game: “Sink a Dot Com” 
+    - Page 161 — Code Magnets
 
 ![Chapter 6](images/chapter-06.png)
 
@@ -110,3 +110,13 @@
     - Page 194 — Pool Puzzle
 
 ![Chapter 7](images/chapter-07.png)
+
+---
+
+## 📘 Chapter 8. Interfaces and Abstract Classes: Serious Polymorphism
+
+- 📂 Solutions are in folder: `chapter08`
+- 📄 Exercises from the book:
+    - Page 206 — Polymorphism in action
+
+![Chapter 8](images/chapter-08.png)
