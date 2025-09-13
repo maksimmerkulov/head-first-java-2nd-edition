@@ -118,5 +118,6 @@
 - 📂 Solutions are in folder: `chapter08`
 - 📄 Exercises from the book:
     - Page 206 — Polymorphism in action
+    - Page 207 — Uh-oh, now we need to keep Cats, too
 
 ![Chapter 8](images/chapter-08.png)
