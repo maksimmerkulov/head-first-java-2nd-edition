@@ -132,5 +132,6 @@
 - 📄 Exercises from the book:
     - Page 242 — Construct a Duck
     - Page 243 — Initializing the state of a new Duck
+    - Page 244 — Using the constructor to initialize important Duck state
 
 ![Chapter 9](images/chapter-09.png)

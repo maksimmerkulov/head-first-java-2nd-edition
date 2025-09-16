@@ -3,11 +3,11 @@ package chapter09;
 public class Duck {
     int size;
 
-    public Duck() {
+    public Duck(int duckSize) {
         System.out.println("Quack");
-    }
 
-    public void setSize(int newSize) {
-        size = newSize;
+        size = duckSize;
+
+        System.out.println("size is " + size);
     }
 }
