@@ -131,5 +131,6 @@
 - 📂 Solutions are in folder: `chapter09`
 - 📄 Exercises from the book:
     - Page 242 — Construct a Duck
+    - Page 243 — Initializing the state of a new Duck
 
 ![Chapter 9](images/chapter-09.png)
