@@ -123,3 +123,13 @@
     - Page 232 — Pool Puzzle
 
 ![Chapter 8](images/chapter-08.png)
+
+---
+
+## 📘 Chapter 9. Constructors and Garbage Collection: Life and Death of an Object
+
+- 📂 Solutions are in folder: `chapter09`
+- 📄 Exercises from the book:
+    - Page 242 — Construct a Duck
+
+![Chapter 9](images/chapter-09.png)
