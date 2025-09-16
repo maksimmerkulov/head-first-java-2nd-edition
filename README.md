@@ -134,5 +134,6 @@
     - Page 243 — Initializing the state of a new Duck
     - Page 244 — Using the constructor to initialize important Duck state
     - Page 245 — Make it easy to make a Duck
+    - Page 248 — Sharpen your pencil
 
 ![Chapter 9](images/chapter-09.png)
