@@ -140,5 +140,6 @@
     - Page 257 — Sharpen your pencil
     - Page 266 — BE the Garbage Collector
     - Page 267 — Popular Objects
+    - Page 268–269 — Five-Minute Mystery
 
 ![Chapter 9](images/chapter-09.png)
