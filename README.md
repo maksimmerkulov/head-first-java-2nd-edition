@@ -135,5 +135,6 @@
     - Page 244 — Using the constructor to initialize important Duck state
     - Page 245 — Make it easy to make a Duck
     - Page 248 — Sharpen your pencil
+    - Page 252 — Making a Hippo means making the Animal and Object parts too...
 
 ![Chapter 9](images/chapter-09.png)
