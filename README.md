@@ -137,5 +137,6 @@
     - Page 248 — Sharpen your pencil
     - Page 252 — Making a Hippo means making the Animal and Object parts too...
     - Page 255 — Superclass constructors with arguments
+    - Page 257 — Sharpen your pencil
 
 ![Chapter 9](images/chapter-09.png)
