@@ -156,5 +156,6 @@
     - Page 281 — Initializing a static variable
     - Page 282 — static final variables are constants
     - Page 283 — final isn’t just for static variables...
+    - Page 285 — Sharpen your pencil
 
 ![Chapter 10](images/chapter-10.png)
