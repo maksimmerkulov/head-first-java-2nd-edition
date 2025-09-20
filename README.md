@@ -143,3 +143,13 @@
     - Page 268–269 — Five-Minute Mystery
 
 ![Chapter 9](images/chapter-09.png)
+
+---
+
+## 📘 Chapter 10. Numbers and Statics: Numbers Matter
+
+- 📂 Solutions are in folder: `chapter10`
+- 📄 Exercises from the book:
+    - Page 277 — Static methods can’t use non-static (instance) variables!
+
+![Chapter 10](images/chapter-10.png)
