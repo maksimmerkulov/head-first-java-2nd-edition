@@ -153,5 +153,6 @@
     - Page 277 — Static methods can’t use non-static (instance) variables!
     - Page 278 — Static methods can’t use non-static methods, either!
     - Page 279–280 — Static variable: value is the same for ALL instances of the class
+    - Page 281 — Initializing a static variable
 
 ![Chapter 10](images/chapter-10.png)
