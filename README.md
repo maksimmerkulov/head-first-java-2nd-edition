@@ -151,5 +151,6 @@
 - 📂 Solutions are in folder: `chapter10`
 - 📄 Exercises from the book:
     - Page 277 — Static methods can’t use non-static (instance) variables!
+    - Page 278 — Static methods can’t use non-static methods, either!
 
 ![Chapter 10](images/chapter-10.png)

@@ -5,7 +5,7 @@ public class Duck {
     private int size;
 
     public static void main (String[] args) {
-        // System.out.println("Size of duck is " + size);
+        // System.out.println("Size is " + getSize());
     }
 
     public void setSize(int s) {
