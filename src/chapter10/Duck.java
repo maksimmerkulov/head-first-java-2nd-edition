@@ -3,9 +3,10 @@ package chapter10;
 public class Duck {
 
     private int size;
+    private static int duckCount = 0;
 
-    public static void main (String[] args) {
-        // System.out.println("Size is " + getSize());
+    public Duck() {
+        duckCount++;
     }
 
     public void setSize(int s) {
