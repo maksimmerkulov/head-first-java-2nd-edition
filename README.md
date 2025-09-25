@@ -159,5 +159,6 @@
     - Page 285 — Sharpen your pencil
     - Page 291 — Sharpen your pencil
     - Page 294 — Number formatting
+    - Page 307 — Even more Statics!... static imports
 
 ![Chapter 10](images/chapter-10.png)
