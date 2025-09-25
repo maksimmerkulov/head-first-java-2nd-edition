@@ -161,5 +161,6 @@
     - Page 294 — Number formatting
     - Page 307 — Even more Statics!... static imports
     - Page 310 — BE the compiler
+    - Page 312 — Lunar Code Magnets
 
 ![Chapter 10](images/chapter-10.png)
