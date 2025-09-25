@@ -158,5 +158,6 @@
     - Page 283 — final isn’t just for static variables...
     - Page 285 — Sharpen your pencil
     - Page 291 — Sharpen your pencil
+    - Page 294 — Number formatting
 
 ![Chapter 10](images/chapter-10.png)
