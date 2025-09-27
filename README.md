@@ -173,5 +173,6 @@
 - 📄 Exercises from the book:
     - Page 318 — First we need a Sequencer
     - Page 321 — The compiler needs to know that YOU know you’re calling a risky method.
+    - Page 328 — Sharpen your pencil. Flow Control
 
 ![Chapter 11](images/chapter-11.png)
