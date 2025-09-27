@@ -177,5 +177,6 @@
     - Page 329 — Did we mention that a method can throw more than one exception?
     - Page 336 — Ducking (by declaring) only delays the inevitable
     - Page 342 — Your very first sound player app
+    - Page 346 — Version 2: Using command-line args to experiment with sounds
 
 ![Chapter 11](images/chapter-11.png)
