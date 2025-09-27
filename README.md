@@ -164,3 +164,13 @@
     - Page 312 — Lunar Code Magnets
 
 ![Chapter 10](images/chapter-10.png)
+
+---
+
+## 📘 Chapter 11. Exception Handling: Risky Behavior
+
+- 📂 Solutions are in folder: `chapter11`
+- 📄 Exercises from the book:
+    - Page 318 — First we need a Sequencer
+
+![Chapter 11](images/chapter-11.png)
