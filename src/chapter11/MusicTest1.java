@@ -3,11 +3,14 @@ package chapter11;
 import javax.sound.midi.*;
 
 public class MusicTest1 {
+    public void play() {
 
-    public void play() {  // need to handle exception
-        // Sequencer sequencer = MidiSystem.getSequencer(); // might throw MidiUnavailableException
-
-        System.out.println("We got a sequencer");
+        try {
+            Sequencer sequencer = MidiSystem.getSequencer();
+            System.out.println("Successfully got a sequencer");
+        } catch(MidiUnavailableException ex) {
+            System.out.println("Bummer");
+        }
     } // close play
 
     public static void main(String[] args) {
