@@ -181,3 +181,13 @@
     - Page 349 — Code Magnets
 
 ![Chapter 11](images/chapter-11.png)
+
+---
+
+## 📘 Chapter 12. Getting GUI: A Very Graphic Story
+
+- 📂 Solutions are in folder: `chapter12`
+- 📄 Exercises from the book:
+    - Page 355 — Your first GUI: a button on a frame
+
+![Chapter 12](images/chapter-12.png)
