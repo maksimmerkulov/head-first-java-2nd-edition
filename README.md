@@ -189,5 +189,6 @@
 - 📂 Solutions are in folder: `chapter12`
 - 📄 Exercises from the book:
     - Page 355 — Your first GUI: a button on a frame
+    - Page 357–360 — Getting a user event
 
 ![Chapter 12](images/chapter-12.png)
