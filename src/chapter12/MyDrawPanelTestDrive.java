@@ -5,7 +5,7 @@ import javax.swing.*;
 public class MyDrawPanelTestDrive {
     public static void main (String[] args) {
 
-        JFrame frame = new JFrame("art");
+        JFrame frame = new JFrame();
         MyDrawPanel panel = new MyDrawPanel();
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

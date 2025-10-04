@@ -192,5 +192,6 @@
     - Page 357–360 — Getting a user event
     - Page 364 — Make your own drawing widget
     - Page 365 — Fun things to do in paintComponent(). Display a JPEG
+    - Page 365 — Fun things to do in paintComponent(). Paint a randomly-colored circle on a black background
 
 ![Chapter 12](images/chapter-12.png)
