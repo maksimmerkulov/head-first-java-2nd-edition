@@ -7,8 +7,9 @@ class MyDrawPanel extends JPanel {
 
     public void paintComponent(Graphics g) {
 
-        g.setColor(Color.orange);
+        Image image = new ImageIcon("resources/catzilla.jpg").getImage();
 
-        g.fillRect(20,50,100,100);
+        g.drawImage(image,3,4,this);
+
     }
 }

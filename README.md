@@ -191,5 +191,6 @@
     - Page 355 — Your first GUI: a button on a frame
     - Page 357–360 — Getting a user event
     - Page 364 — Make your own drawing widget
+    - Page 365 — Fun things to do in paintComponent(). Display a JPEG
 
 ![Chapter 12](images/chapter-12.png)
