@@ -197,5 +197,6 @@
     - Page 370–371 — GUI layouts: putting more than one widget on a frame
     - Page 376 — Inner class to the rescue!
     - Page 378–379 — How to make an instance of an inner class
+    - Page 382–385 — Using an inner class for animation
 
 ![Chapter 12](images/chapter-12.png)
