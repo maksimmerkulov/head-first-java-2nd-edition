@@ -195,5 +195,6 @@
     - Page 365 — Fun things to do in paintComponent(). Paint a randomly-colored circle on a black background
     - Page 367 — Because life’s too short to paint the circle a solid color when there’s a gradient blend waiting for you.
     - Page 370–371 — GUI layouts: putting more than one widget on a frame
+    - Page 376 — Inner class to the rescue!
 
 ![Chapter 12](images/chapter-12.png)
