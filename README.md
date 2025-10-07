@@ -196,5 +196,6 @@
     - Page 367 — Because life’s too short to paint the circle a solid color when there’s a gradient blend waiting for you.
     - Page 370–371 — GUI layouts: putting more than one widget on a frame
     - Page 376 — Inner class to the rescue!
+    - Page 378–379 — How to make an instance of an inner class
 
 ![Chapter 12](images/chapter-12.png)
