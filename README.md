@@ -202,5 +202,6 @@
     - Page 390 — Version Two: registering and getting ControllerEvents
     - Page 391–393 — Version Three: drawing graphics in time with the music
     - Page 395 — BE the compiler
+    - Page 396 — Pool Puzzle
 
 ![Chapter 12](images/chapter-12.png)
