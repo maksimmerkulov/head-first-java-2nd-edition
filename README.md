@@ -201,5 +201,6 @@
     - Page 389 — Example: how to use the new static makeEvent() method
     - Page 390 — Version Two: registering and getting ControllerEvents
     - Page 391–393 — Version Three: drawing graphics in time with the music
+    - Page 395 — BE the compiler
 
 ![Chapter 12](images/chapter-12.png)
