@@ -198,5 +198,6 @@
     - Page 376 — Inner class to the rescue!
     - Page 378–379 — How to make an instance of an inner class
     - Page 382–385 — Using an inner class for animation
+    - Page 389 — Example: how to use the new static makeEvent() method
 
 ![Chapter 12](images/chapter-12.png)
