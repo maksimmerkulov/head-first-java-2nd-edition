@@ -199,5 +199,6 @@
     - Page 378–379 — How to make an instance of an inner class
     - Page 382–385 — Using an inner class for animation
     - Page 389 — Example: how to use the new static makeEvent() method
+    - Page 390 — Version Two: registering and getting ControllerEvents
 
 ![Chapter 12](images/chapter-12.png)
