@@ -205,3 +205,13 @@
     - Page 396 — Pool Puzzle
 
 ![Chapter 12](images/chapter-12.png)
+
+---
+
+## 📘 Chapter 13. Using Swing: Work on Your Swing
+
+- 📂 Solutions are in folder: `chapter13`
+- 📄 Exercises from the book:
+    - Page 403–411 — The Big Three layout managers: border, flow, and box.
+
+![Chapter 13](images/chapter-13.png)
