@@ -214,5 +214,6 @@
 - 📄 Exercises from the book:
     - Page 403–411 — The Big Three layout managers: border, flow, and box.
     - Page 410 — Sharpen your pencil
+    - Page 403–411 — The Big Three layout managers: border, flow, and box.
 
 ![Chapter 13](images/chapter-13.png)
