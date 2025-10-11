@@ -213,5 +213,6 @@
 - 📂 Solutions are in folder: `chapter13`
 - 📄 Exercises from the book:
     - Page 403–411 — The Big Three layout managers: border, flow, and box.
+    - Page 410 — Sharpen your pencil
 
 ![Chapter 13](images/chapter-13.png)
