@@ -16,10 +16,12 @@ public class Panel1 {
         panel.setBackground(Color.darkGray);
 
         JButton button = new JButton("shock me");
+        JButton buttonTwo = new JButton("bliss");
 
         panel.add(button);
-        frame.getContentPane().add(BorderLayout.EAST, panel);
+        panel.add(buttonTwo);
 
+        frame.getContentPane().add(BorderLayout.EAST, panel);
         frame.setSize(250,200);
         frame.setVisible(true);
     }
