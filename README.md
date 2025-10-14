@@ -215,5 +215,6 @@
     - Page 403–411 — The Big Three layout managers: border, flow, and box.
     - Page 410 — Sharpen your pencil
     - Page 403–411 — The Big Three layout managers: border, flow, and box.
+    - Page 413–417 — Playing with Swing components
 
 ![Chapter 13](images/chapter-13.png)
