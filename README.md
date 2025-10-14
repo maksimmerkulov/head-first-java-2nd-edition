@@ -216,5 +216,6 @@
     - Page 410 — Sharpen your pencil
     - Page 403–411 — The Big Three layout managers: border, flow, and box.
     - Page 413–417 — Playing with Swing components
+    - Page 419–423 — Making the BeatBox
 
 ![Chapter 13](images/chapter-13.png)
