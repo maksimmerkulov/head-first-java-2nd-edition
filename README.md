@@ -217,5 +217,6 @@
     - Page 403–411 — The Big Three layout managers: border, flow, and box.
     - Page 413–417 — Playing with Swing components
     - Page 419–423 — Making the BeatBox
+    - Page 424–425 — Which code goes with which layout?
 
 ![Chapter 13](images/chapter-13.png)
