@@ -229,5 +229,6 @@
 - 📄 Exercises from the book:
     - Page 437–439 — If you want your class to be serializable, implement Serializable
     - Page 444–445 — Saving and restoring the game characters
+    - Page 447 — Writing a String to a Text File
 
 ![Chapter 14](images/chapter-14.png)
