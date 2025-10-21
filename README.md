@@ -220,3 +220,13 @@
     - Page 424–425 — Which code goes with which layout?
 
 ![Chapter 13](images/chapter-13.png)
+
+---
+
+## 📘 Chapter 14. Serialization and File I/O: Saving Objects
+
+- 📂 Solutions are in folder: `chapter14`
+- 📄 Exercises from the book:
+    - Page 437–439 — If you want your class to be serializable, implement Serializable
+
+![Chapter 14](images/chapter-14.png)
