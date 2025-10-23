@@ -6,9 +6,7 @@ import javax.swing.Box;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
 import java.util.ArrayList;
 
 public class BeatBox {
@@ -60,6 +58,10 @@ public class BeatBox {
         JButton serializeIt = new JButton("serializeIt");
         serializeIt.addActionListener(new MySendListener());
         buttonBox.add(serializeIt);
+
+        JButton restore = new JButton("restore");
+        restore.addActionListener(new MyReadInListener());
+        buttonBox.add(restore);
 
         javax.swing.Box nameBox = new Box(BoxLayout.Y_AXIS);
         for (int i = 0; i < 16; i++) {
@@ -184,6 +186,32 @@ public class BeatBox {
             } catch(Exception ex) {
                 ex.printStackTrace();
             }
+
+        } // close method
+    } // close inner class
+
+    public class MyReadInListener implements ActionListener {
+
+        public void actionPerformed(ActionEvent a) {
+            boolean[] checkboxState = null;
+            try {
+                FileInputStream fileIn = new FileInputStream(new File("Checkbox.ser"));
+                ObjectInputStream is = new ObjectInputStream(fileIn);
+                checkboxState = (boolean[]) is.readObject();
+
+            } catch(Exception ex) {ex.printStackTrace();}
+
+            for (int i = 0; i < 256; i++) {
+                JCheckBox check = (JCheckBox) checkboxList.get(i);
+                if (checkboxState[i]) {
+                    check.setSelected(true);
+                } else {
+                    check.setSelected(false);
+                }
+            }
+
+            sequencer.stop();
+            buildTrackAndStart();
 
         } // close method
     } // close inner class
