@@ -236,5 +236,6 @@
     - Page 461 — Using the serialVersionUID
     - Page 463 — Saving a BeatBox pattern
     - Page 464 — Restoring a BeatBox pattern
+    - Page 464 — Sharpen your pencil
 
 ![Chapter 14](images/chapter-14.png)

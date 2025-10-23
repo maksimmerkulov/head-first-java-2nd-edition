@@ -179,12 +179,21 @@ public class BeatBox {
                 }
             }
 
-            try {
-                FileOutputStream fileStream = new FileOutputStream(new File("Checkbox.ser"));
-                ObjectOutputStream os = new ObjectOutputStream(fileStream);
-                os.writeObject(checkboxState);
-            } catch(Exception ex) {
-                ex.printStackTrace();
+            JFileChooser fileChooser = new JFileChooser();
+            fileChooser.setDialogTitle("Save pattern as...");
+            int userSelection = fileChooser.showSaveDialog(theFrame);
+
+            if (userSelection == JFileChooser.APPROVE_OPTION) {
+                File fileToSave = fileChooser.getSelectedFile();
+                try (FileOutputStream fileStream = new FileOutputStream(fileToSave);
+                     ObjectOutputStream os = new ObjectOutputStream(fileStream)) {
+                    os.writeObject(checkboxState);
+                    JOptionPane.showMessageDialog(theFrame,
+                            "Pattern saved to:\n" + fileToSave.getAbsolutePath(),
+                            "Save Successful", JOptionPane.INFORMATION_MESSAGE);
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                }
             }
 
         } // close method
@@ -194,24 +203,28 @@ public class BeatBox {
 
         public void actionPerformed(ActionEvent a) {
             boolean[] checkboxState = null;
-            try {
-                FileInputStream fileIn = new FileInputStream(new File("Checkbox.ser"));
-                ObjectInputStream is = new ObjectInputStream(fileIn);
-                checkboxState = (boolean[]) is.readObject();
 
-            } catch(Exception ex) {ex.printStackTrace();}
+            JFileChooser fileChooser = new JFileChooser();
+            fileChooser.setDialogTitle("Open saved pattern...");
+            int userSelection = fileChooser.showOpenDialog(theFrame);
 
-            for (int i = 0; i < 256; i++) {
-                JCheckBox check = (JCheckBox) checkboxList.get(i);
-                if (checkboxState[i]) {
-                    check.setSelected(true);
-                } else {
-                    check.setSelected(false);
-                }
+            if (userSelection == JFileChooser.APPROVE_OPTION) {
+                File fileToOpen = fileChooser.getSelectedFile();
+                try (FileInputStream fileIn = new FileInputStream(fileToOpen);
+                     ObjectInputStream is = new ObjectInputStream(fileIn)) {
+                    checkboxState = (boolean[]) is.readObject();
+                } catch(Exception ex) {ex.printStackTrace();}
             }
 
-            sequencer.stop();
-            buildTrackAndStart();
+            if (checkboxState != null) {
+                for (int i = 0; i < 256; i++) {
+                    JCheckBox check = (JCheckBox) checkboxList.get(i);
+                    check.setSelected(checkboxState[i]);
+                }
+
+                sequencer.stop();
+                buildTrackAndStart();
+            }
 
         } // close method
     } // close inner class
