@@ -231,5 +231,6 @@
     - Page 444–445 — Saving and restoring the game characters
     - Page 447 — Writing a String to a Text File
     - Page 449–451 — Quiz Card Builder (code outline)
+    - Page 454 — Reading from a Text File
 
 ![Chapter 14](images/chapter-14.png)
