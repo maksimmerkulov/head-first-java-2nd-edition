@@ -237,5 +237,6 @@
     - Page 463 — Saving a BeatBox pattern
     - Page 464 — Restoring a BeatBox pattern
     - Page 464 — Sharpen your pencil
+    - Page 467 — Code Magnets
 
 ![Chapter 14](images/chapter-14.png)
