@@ -248,5 +248,6 @@
 - 📂 Solutions are in folder: `chapter15`
 - 📄 Exercises from the book:
     - Page 481 — DailyAdviceClient code
+    - Page 484 — DailyAdviceServer code
 
 ![Chapter 15](images/chapter-15.png)
