@@ -240,3 +240,13 @@
     - Page 467 — Code Magnets
 
 ![Chapter 14](images/chapter-14.png)
+
+---
+
+## 📘 Chapter 15. Networking and Threads: Make a Connection
+
+- 📂 Solutions are in folder: `chapter15`
+- 📄 Exercises from the book:
+    - Page 481 — DailyAdviceClient code
+
+![Chapter 15](images/chapter-15.png)
