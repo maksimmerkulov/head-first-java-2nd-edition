@@ -249,5 +249,6 @@
 - 📄 Exercises from the book:
     - Page 481 — DailyAdviceClient code
     - Page 484 — DailyAdviceServer code
+    - Page 486–489 — Writing a Chat Client
 
 ![Chapter 15](images/chapter-15.png)
