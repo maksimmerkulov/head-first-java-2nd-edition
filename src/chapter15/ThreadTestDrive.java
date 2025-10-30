@@ -1,14 +1,10 @@
 package chapter15;
 
 class ThreadTestDrive {
-
     public static void main (String[] args) {
-
-        Runnable threadJob = new MyRunnable();
-        Thread myThread = new Thread(threadJob);
-
-        myThread.start();
-
+        Runnable theJob = new MyRunnable();
+        Thread t = new Thread(theJob);
+        t.start();
         System.out.println("back in main");
     }
 }
