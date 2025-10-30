@@ -250,5 +250,6 @@
     - Page 481 — DailyAdviceClient code
     - Page 484 — DailyAdviceServer code
     - Page 486–489 — Writing a Chat Client
+    - Page 494–496 — To make a job for your thread, implement the Runnable interface
 
 ![Chapter 15](images/chapter-15.png)
