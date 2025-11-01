@@ -255,5 +255,6 @@
     - Page 502 — Using sleep to make our program more predictable.
     - Page 503 — Making and starting two threads
     - Page 506–509 — The Ryan and Monica problem, in code
+    - Page 510 — We need the makeWithdrawal() method to run as one atomic thing.
 
 ![Chapter 15](images/chapter-15.png)
