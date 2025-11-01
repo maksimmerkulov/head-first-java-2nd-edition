@@ -259,5 +259,6 @@
     - Page 512 — The dreaded “Lost Update” problem
     - Page 514–515 — Make the increment() method atomic. Synchronize it!
     - Page 518–519 — New and improved SimpleChatClient
+    - Page 524–525 — Code Magnets
 
 ![Chapter 15](images/chapter-15.png)
