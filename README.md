@@ -258,5 +258,6 @@
     - Page 510 — We need the makeWithdrawal() method to run as one atomic thing.
     - Page 512 — The dreaded “Lost Update” problem
     - Page 514–515 — Make the increment() method atomic. Synchronize it!
+    - Page 518–519 — New and improved SimpleChatClient
 
 ![Chapter 15](images/chapter-15.png)
