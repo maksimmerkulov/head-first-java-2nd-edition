@@ -22,7 +22,7 @@ public class Box implements Serializable {
         myBox.setHeight(20);
 
         try {
-            FileOutputStream fs = new FileOutputStream("foo.ser");
+            FileOutputStream fs = new FileOutputStream("resources/foo.ser");
             ObjectOutputStream os = new ObjectOutputStream(fs);
             os.writeObject(myBox);
             os.close();

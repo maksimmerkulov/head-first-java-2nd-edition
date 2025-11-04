@@ -7,11 +7,11 @@ class DungeonTest {
         DungeonGame d = new DungeonGame();
         System.out.println(d.getX() + d.getY() + d.getZ());
         try {
-            FileOutputStream fos = new FileOutputStream("dg.ser");
+            FileOutputStream fos = new FileOutputStream("resources/dg.ser");
             ObjectOutputStream oos = new ObjectOutputStream(fos);
             oos.writeObject(d);
             oos.close();
-            FileInputStream fis = new FileInputStream("dg.ser");
+            FileInputStream fis = new FileInputStream("resources/dg.ser");
             ObjectInputStream ois = new ObjectInputStream(fis);
             d = (DungeonGame) ois.readObject();
             ois.close();

@@ -6,7 +6,7 @@ class ReadAFile {
     public static void main (String[] args) {
 
         try {
-            File myFile = new File("MyText.txt");
+            File myFile = new File("resources/MyText.txt");
             FileReader fileReader = new FileReader(myFile);
 
             BufferedReader reader = new BufferedReader(fileReader);

@@ -262,3 +262,13 @@
     - Page 524–525 — Code Magnets
 
 ![Chapter 15](images/chapter-15.png)
+
+---
+
+## 📘 Chapter 16. Collections and Generics: Data Structures
+
+- 📂 Solutions are in folder: `chapter16`
+- 📄 Exercises from the book:
+    - Page 531 — Here’s what you have so far, without the sort:
+
+![Chapter 16](images/chapter-16.png)

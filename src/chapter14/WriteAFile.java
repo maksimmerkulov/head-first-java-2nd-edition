@@ -6,7 +6,7 @@ class WriteAFile {
     public static void main (String[] args) {
 
         try {
-            FileWriter writer = new FileWriter("Foo.txt");
+            FileWriter writer = new FileWriter("resources/Foo.txt");
 
             writer.write("hello foo!");
 

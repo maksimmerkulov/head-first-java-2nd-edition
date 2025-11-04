@@ -11,7 +11,7 @@ public class GameSaverTest {
         // imagine code that does things with the characters that might change their state values
 
         try {
-            ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream("Game.ser"));
+            ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream("resources/Game.ser"));
             os.writeObject(one);
             os.writeObject(two);
             os.writeObject(three);
@@ -24,7 +24,7 @@ public class GameSaverTest {
         three = null;
 
         try {
-            ObjectInputStream is = new ObjectInputStream(new FileInputStream("Game.ser"));
+            ObjectInputStream is = new ObjectInputStream(new FileInputStream("resources/Game.ser"));
             GameCharacter oneRestore = (GameCharacter) is.readObject();
             GameCharacter twoRestore = (GameCharacter) is.readObject();
             GameCharacter threeRestore = (GameCharacter) is.readObject();

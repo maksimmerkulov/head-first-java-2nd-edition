@@ -9,7 +9,7 @@ public class Pond implements Serializable {
     public static void main (String[] args) {
         Pond myPond = new Pond();
         try {
-            FileOutputStream fs = new FileOutputStream("Pond.ser");
+            FileOutputStream fs = new FileOutputStream("resources/Pond.ser");
             ObjectOutputStream os = new ObjectOutputStream(fs);
 
             os.writeObject(myPond);
