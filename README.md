@@ -271,5 +271,6 @@
 - 📄 Exercises from the book:
     - Page 531 — Here’s what you have so far, without the sort:
     - Page 535 — Adding Collections.sort() to the Jukebox code
+    - Page 536 — But now you need Song objects, not just simple Strings.
 
 ![Chapter 16](images/chapter-16.png)
