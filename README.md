@@ -270,5 +270,6 @@
 - 📂 Solutions are in folder: `chapter16`
 - 📄 Exercises from the book:
     - Page 531 — Here’s what you have so far, without the sort:
+    - Page 535 — Adding Collections.sort() to the Jukebox code
 
 ![Chapter 16](images/chapter-16.png)

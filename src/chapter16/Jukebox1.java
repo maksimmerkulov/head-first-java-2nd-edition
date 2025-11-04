@@ -14,6 +14,8 @@ public class Jukebox1 {
     public void go() {
         getSongs();
         System.out.println(songList);
+        Collections.sort(songList);
+        System.out.println(songList);
     }
 
     void getSongs() {
@@ -34,5 +36,4 @@ public class Jukebox1 {
         String[] tokens = lineToParse.split("/");
         songList.add(tokens[0]);
     }
-
 }
