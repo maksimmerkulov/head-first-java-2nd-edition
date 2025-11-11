@@ -274,5 +274,6 @@
     - Page 536 — But now you need Song objects, not just simple Strings.
     - Page 537 — Changing the Jukebox code to use Songs instead of Strings
     - Page 550 — The new, improved, comparable Song class
+    - Page 553 — Updating the Jukebox to use a Comparator
 
 ![Chapter 16](images/chapter-16.png)
