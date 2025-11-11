@@ -273,5 +273,6 @@
     - Page 535 — Adding Collections.sort() to the Jukebox code
     - Page 536 — But now you need Song objects, not just simple Strings.
     - Page 537 — Changing the Jukebox code to use Songs instead of Strings
+    - Page 550 — The new, improved, comparable Song class
 
 ![Chapter 16](images/chapter-16.png)

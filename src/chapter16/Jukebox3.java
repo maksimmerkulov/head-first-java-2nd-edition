@@ -12,7 +12,7 @@ public class Jukebox3 {
     public void go() {
         getSongs();
         System.out.println(songList);
-        // Collections.sort(songList); // error: no suitable method found for sort(ArrayList<Song>)
+        Collections.sort(songList);
         System.out.println(songList);
     }
     void getSongs() {
