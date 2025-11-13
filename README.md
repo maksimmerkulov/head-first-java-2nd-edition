@@ -280,5 +280,6 @@
     - Page 559 — Using a HashSet instead of ArrayList
     - Page 562 — The Song class with overridden hashCode() and equals()
     - Page 564 — And if we want the set to stay sorted, we’ve got TreeSet
+    - Page 565 — What you MUST know about TreeSet...
 
 ![Chapter 16](images/chapter-16.png)
