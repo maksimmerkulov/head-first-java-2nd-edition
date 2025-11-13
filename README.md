@@ -277,5 +277,6 @@
     - Page 553 — Updating the Jukebox to use a Comparator
     - Page 554 — Sharpen your pencil. Reverse Engineer
     - Page 556 — Uh-oh. The sorting all works, but now we have duplicates...
+    - Page 559 — Using a HashSet instead of ArrayList
 
 ![Chapter 16](images/chapter-16.png)
