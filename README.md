@@ -278,5 +278,6 @@
     - Page 554 — Sharpen your pencil. Reverse Engineer
     - Page 556 — Uh-oh. The sorting all works, but now we have duplicates...
     - Page 559 — Using a HashSet instead of ArrayList
+    - Page 562 — The Song class with overridden hashCode() and equals()
 
 ![Chapter 16](images/chapter-16.png)
