@@ -276,5 +276,6 @@
     - Page 550 — The new, improved, comparable Song class
     - Page 553 — Updating the Jukebox to use a Comparator
     - Page 554 — Sharpen your pencil. Reverse Engineer
+    - Page 556 — Uh-oh. The sorting all works, but now we have duplicates...
 
 ![Chapter 16](images/chapter-16.png)
