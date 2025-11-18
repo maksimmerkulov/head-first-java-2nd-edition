@@ -283,5 +283,6 @@
     - Page 565 — What you MUST know about TreeSet...
     - Page 566 — TreeSet elements MUST be comparable
     - Page 567 — We’ve seen Lists and Sets, now we’ll use a Map
+    - Page 568 — Finally, back to generics
 
 ![Chapter 16](images/chapter-16.png)
