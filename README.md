@@ -285,5 +285,6 @@
     - Page 567 — We’ve seen Lists and Sets, now we’ll use a Map
     - Page 568 — Finally, back to generics
     - Page 569 — Using polymorphic arguments and generics
+    - Page 570 — But will it work with ArrayList<Dog> ?
 
 ![Chapter 16](images/chapter-16.png)
