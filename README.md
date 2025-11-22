@@ -12,7 +12,7 @@
 
 ## 📘 Chapter 1. Dive in A Quick Dip: Breaking the Surface
 
-- 📂 Solutions are in folder: `chapter01`
+- 📂 Solutions are in folder: `com.headfirstjava.chapter01`
 - 📄 Exercises from the book:
     - Page 9 — Writing a class with a `main`
     - Page 12 — Example of a `while` loop
@@ -31,7 +31,7 @@
 
 ## 📘 Chapter 2. Classes and Objects: A Trip to Objectville
 
-- 📂 Solutions are in folder: `chapter02`
+- 📂 Solutions are in folder: `com.headfirstjava.chapter02`
 - 📄 Exercises from the book:
     - Page 36 — Making your first object 
     - Page 37 — Making and testing Movie objects 
@@ -46,7 +46,7 @@
 
 ## 📘 Chapter 3. Primitives and References: Know Your Variables
 
-- 📂 Solutions are in folder: `chapter03`
+- 📂 Solutions are in folder: `com.headfirstjava.chapter03`
 - 📄 Exercises from the book:
     - Page 62 — A Dog example 
     - Page 63 — BE the compiler 
@@ -59,7 +59,7 @@
 
 ## 📘 Chapter 4. Methods Use Instance Variables: How Objects Behave
 
-- 📂 Solutions are in folder: `chapter04`
+- 📂 Solutions are in folder: `com.headfirstjava.chapter04`
 - 📄 Exercises from the book:
     - Page 73 — The size affects the bark 
     - Page 79 — Cool things you can do with parameters and return types 
@@ -76,7 +76,7 @@
 
 ## 📘 Chapter 5. Writing a Program: Extra-Strength Methods
 
-- 📂 Solutions are in folder: `chapter05`
+- 📂 Solutions are in folder: `com.headfirstjava.chapter05`
 - 📄 Exercises from the book:
     - Page 96–113 — Let’s build a Battleship-style game: “Sink a Dot Com” 
     - Page 115 — Trips through a loop 
@@ -90,7 +90,7 @@
 
 ## 📘 Chapter 6. Get to Know The Java API: Using the Java Library
 
-- 📂 Solutions are in folder: `chapter06`
+- 📂 Solutions are in folder: `com.headfirstjava.chapter06`
 - 📄 Exercises from the book:
     - Page 138 — Let’s fix the DotCom code 
     - Page 139 — New and improved DotCom class 
@@ -103,7 +103,7 @@
 
 ## 📘 Chapter 7. Inheritance and Polymorphism: Better Living in Objectville
 
-- 📂 Solutions are in folder: `chapter07`
+- 📂 Solutions are in folder: `com.headfirstjava.chapter07`
 - 📄 Exercises from the book:
     - Page 192 — Mixed Messages
     - Page 193 — BE the Compiler
@@ -115,7 +115,7 @@
 
 ## 📘 Chapter 8. Interfaces and Abstract Classes: Serious Polymorphism
 
-- 📂 Solutions are in folder: `chapter08`
+- 📂 Solutions are in folder: `com.headfirstjava.chapter08`
 - 📄 Exercises from the book:
     - Page 206 — Polymorphism in action
     - Page 207 — Uh-oh, now we need to keep Cats, too
@@ -128,7 +128,7 @@
 
 ## 📘 Chapter 9. Constructors and Garbage Collection: Life and Death of an Object
 
-- 📂 Solutions are in folder: `chapter09`
+- 📂 Solutions are in folder: `com.headfirstjava.chapter09`
 - 📄 Exercises from the book:
     - Page 242 — Construct a Duck
     - Page 243 — Initializing the state of a new Duck
@@ -148,7 +148,7 @@
 
 ## 📘 Chapter 10. Numbers and Statics: Numbers Matter
 
-- 📂 Solutions are in folder: `chapter10`
+- 📂 Solutions are in folder: `com.headfirstjava.chapter10`
 - 📄 Exercises from the book:
     - Page 277 — Static methods can’t use non-static (instance) variables!
     - Page 278 — Static methods can’t use non-static methods, either!
@@ -169,7 +169,7 @@
 
 ## 📘 Chapter 11. Exception Handling: Risky Behavior
 
-- 📂 Solutions are in folder: `chapter11`
+- 📂 Solutions are in folder: `com.headfirstjava.chapter11`
 - 📄 Exercises from the book:
     - Page 318 — First we need a Sequencer
     - Page 321 — The compiler needs to know that YOU know you’re calling a risky method.
@@ -186,7 +186,7 @@
 
 ## 📘 Chapter 12. Getting GUI: A Very Graphic Story
 
-- 📂 Solutions are in folder: `chapter12`
+- 📂 Solutions are in folder: `com.headfirstjava.chapter12`
 - 📄 Exercises from the book:
     - Page 355 — Your first GUI: a button on a frame
     - Page 357–360 — Getting a user event
@@ -210,7 +210,7 @@
 
 ## 📘 Chapter 13. Using Swing: Work on Your Swing
 
-- 📂 Solutions are in folder: `chapter13`
+- 📂 Solutions are in folder: `com.headfirstjava.chapter13`
 - 📄 Exercises from the book:
     - Page 403–411 — The Big Three layout managers: border, flow, and box.
     - Page 410 — Sharpen your pencil
@@ -225,7 +225,7 @@
 
 ## 📘 Chapter 14. Serialization and File I/O: Saving Objects
 
-- 📂 Solutions are in folder: `chapter14`
+- 📂 Solutions are in folder: `com.headfirstjava.chapter14`
 - 📄 Exercises from the book:
     - Page 437–439 — If you want your class to be serializable, implement Serializable
     - Page 444–445 — Saving and restoring the game characters
@@ -245,7 +245,7 @@
 
 ## 📘 Chapter 15. Networking and Threads: Make a Connection
 
-- 📂 Solutions are in folder: `chapter15`
+- 📂 Solutions are in folder: `com.headfirstjava.chapter15`
 - 📄 Exercises from the book:
     - Page 481 — DailyAdviceClient code
     - Page 484 — DailyAdviceServer code
@@ -267,7 +267,7 @@
 
 ## 📘 Chapter 16. Collections and Generics: Data Structures
 
-- 📂 Solutions are in folder: `chapter16`
+- 📂 Solutions are in folder: `com.headfirstjava.chapter16`
 - 📄 Exercises from the book:
     - Page 531 — Here’s what you have so far, without the sort:
     - Page 535 — Adding Collections.sort() to the Jukebox code
@@ -293,8 +293,9 @@
 
 ## 📘 Chapter 17. Package, Jars and Deployment: Release Your Code
 
-- 📂 Solutions are in folder: `chapter17`
+- 📂 Solutions are in folder: `com.headfirstjava.chapter17`
 - 📄 Exercises from the book:
     - Page 584 — Separate source code and class files
+    - Page 588–589 — Preventing package name conflicts
 
 ![Chapter 17](images/chapter-17.png)
