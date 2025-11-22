@@ -288,3 +288,13 @@
     - Page 570 — But will it work with ArrayList<Dog> ?
 
 ![Chapter 16](images/chapter-16.png)
+
+---
+
+## 📘 Chapter 17. Package, Jars and Deployment: Release Your Code
+
+- 📂 Solutions are in folder: `chapter17`
+- 📄 Exercises from the book:
+    - Page 584 — Separate source code and class files
+
+![Chapter 17](images/chapter-17.png)
