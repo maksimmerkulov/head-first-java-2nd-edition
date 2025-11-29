@@ -299,3 +299,13 @@
     - Page 588–589 — Preventing package name conflicts
 
 ![Chapter 17](images/chapter-17.png)
+
+---
+
+## 📘 Chapter 18. Remote Deployment with RMI: Distributed Computing
+
+- 📂 Solutions are in folder: `com.headfirstjava.chapter18`
+- 📄 Exercises from the book:
+    - Page 614–619 — Java RMI gives you the client and service helper objects!
+
+![Chapter 18](images/chapter-18.png)
