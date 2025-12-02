@@ -8,4 +8,14 @@
         <servlet-name>MyServletA</servlet-name>
         <url-pattern>/MyServletA</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>KathyServlet</servlet-name>
+        <servlet-class>com.headfirstjava.chapter18.KathyServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>KathyServlet</servlet-name>
+        <url-pattern>/KathyServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
