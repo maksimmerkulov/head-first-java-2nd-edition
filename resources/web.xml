@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>MyServletA</servlet-name>
+        <servlet-class>com.headfirstjava.chapter18.MyServletA</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MyServletA</servlet-name>
+        <url-pattern>/MyServletA</url-pattern>
+    </servlet-mapping>
+</web-app>
