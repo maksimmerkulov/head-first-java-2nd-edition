@@ -308,5 +308,6 @@
 - 📄 Exercises from the book:
     - Page 614–619 — Java RMI gives you the client and service helper objects!
     - Page 621 — How does the client get the stub class?
+    - Page 625–628 — What about Servlets?
 
 ![Chapter 18](images/chapter-18.png)
