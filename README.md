@@ -322,5 +322,6 @@
 - 📂 Solutions are in folder: `com.headfirstjava.appendix.a`
 - 📄 Exercises from the book:
     - Page 650–656 — Final BeatBox client program
+    - Page 657–658 — Final BeatBox server program
 
 ![Appendix A](images/appendix-a.png)
