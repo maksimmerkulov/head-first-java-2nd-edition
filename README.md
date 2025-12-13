@@ -314,3 +314,13 @@
     - Page 644 — Sharpen your pencil
 
 ![Chapter 18](images/chapter-18.png)
+
+---
+
+## 📘 Appendix A. Final Code Kitchen
+
+- 📂 Solutions are in folder: `com.headfirstjava.appendix.a`
+- 📄 Exercises from the book:
+    - Page 650–656 — Final BeatBox client program
+
+![Appendix A](images/appendix-a.png)
