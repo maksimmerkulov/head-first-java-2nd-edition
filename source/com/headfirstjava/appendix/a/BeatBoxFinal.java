@@ -25,7 +25,6 @@ public class BeatBoxFinal {
 
     Sequencer sequencer;
     Sequence sequence;
-    Sequence mySequence = null;
     Track track;
 
     String[] instrumentNames = {"Bass Drum", "Closed Hi-Hat", "Open Hi-Hat","Acoustic Snare",
@@ -34,12 +33,22 @@ public class BeatBoxFinal {
 
     int[] instruments = {35,42,46,38,49,39,50,60,70,72,64,56,58,47,67,63};
 
-    public static void main (String[] args) {
-        new BeatBoxFinal().startUp(args[0]); // args[0] is your user ID/screen name
+    // Foundation patterns
+    Map<String, boolean[]> foundationPatterns = new LinkedHashMap<>();
+
+    public static void main (String[] args) { // args[0] is your user ID/screen name
+        String userName = "Anonymous"; // default
+        if (args.length > 0) {
+            userName = args[0];
+        } else {
+            System.out.println("No username provided, using default: " + userName);
+        }
+        new BeatBoxFinal().startUp(userName);
     }
 
     public void startUp(String name) {
         userName = name;
+        loadFoundationPatterns(); // load ready-made patterns
         // open connection to the server
         try {
             Socket sock = new Socket("127.0.0.1", 4242);
@@ -84,6 +93,24 @@ public class BeatBoxFinal {
         sendIt.addActionListener(new MySendListener());
         buttonBox.add(sendIt);
 
+        JButton saveIt = new JButton("serializeIt"); // new button
+        saveIt.addActionListener(new MySavePatternListener());
+        buttonBox.add(saveIt);
+
+        JButton loadIt = new JButton("restore"); // new button
+        loadIt.addActionListener(new MyLoadPatternListener());
+        buttonBox.add(loadIt);
+
+        JButton randomButton = new JButton("Random Pattern"); // new button
+        randomButton.addActionListener(new MyRandomPatternListener());
+        buttonBox.add(randomButton);
+
+        // Foundation patterns combo
+        JComboBox<String> foundationBox =
+                new JComboBox<>(foundationPatterns.keySet().toArray(new String[0]));
+        foundationBox.addActionListener(new MyFoundationPatternListener());
+        buttonBox.add(foundationBox);
+
         userMessage = new JTextField();
         buttonBox.add(userMessage);
 
@@ -120,6 +147,88 @@ public class BeatBoxFinal {
         theFrame.pack();
         theFrame.setVisible(true);
     } // close buildGUI
+
+    private void loadFoundationPatterns() {
+
+        boolean[] jazz = new boolean[256];
+        boolean[] rock = new boolean[256];
+        boolean[] reggae = new boolean[256];
+
+        /*
+         * Instrument indexes:
+         * 0  - Bass Drum
+         * 1  - Closed Hi-Hat
+         * 3  - Acoustic Snare
+         */
+
+        // ---------- JAZZ ----------
+        // Hi-hat: swing feel (every 2 beats)
+        for (int beat = 0; beat < 16; beat += 2) {
+            jazz[1 * 16 + beat] = true;
+        } // end loop
+
+        // Snare: beats 2 and 4
+        jazz[3 * 16 + 4]  = true;
+        jazz[3 * 16 + 12] = true;
+
+        // Bass drum: light on beat 1
+        jazz[0 * 16 + 0] = true;
+
+        // ---------- ROCK ----------
+        // Hi-hat: straight 8ths
+        for (int beat = 0; beat < 16; beat += 2) {
+            rock[1 * 16 + beat] = true;
+        } // end loop
+
+        // Bass drum: beats 1 and 3
+        rock[0 * 16 + 0] = true;
+        rock[0 * 16 + 8] = true;
+
+        // Snare: beats 2 and 4
+        rock[3 * 16 + 4]  = true;
+        rock[3 * 16 + 12] = true;
+
+        // ---------- REGGAE ----------
+        // Hi-hat: off-beat
+        for (int beat = 1; beat < 16; beat += 2) {
+            reggae[1 * 16 + beat] = true;
+        } // end loop
+
+        // Snare: beat 3 (classic reggae feel)
+        reggae[3 * 16 + 8] = true;
+
+        // Bass drum: light on beat 1
+        reggae[0 * 16 + 0] = true;
+
+        foundationPatterns.put("Jazz", jazz);
+        foundationPatterns.put("Rock", rock);
+        foundationPatterns.put("Reggae", reggae);
+    } // close loadFoundationPatterns
+
+    public void loadPatternFromFile() {
+        JFileChooser fc = new JFileChooser();
+        if (fc.showOpenDialog(theFrame) == JFileChooser.APPROVE_OPTION) {
+            try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(fc.getSelectedFile()))) {
+                boolean[] pattern = (boolean[]) ois.readObject();
+                changeSequence(pattern);
+            } catch(Exception e) {e.printStackTrace();}
+        }
+    } // close loadPatternFromFile
+
+    public void saveCurrentPattern() {
+        boolean[] checkboxState = new boolean[256];
+        for (int i = 0; i < 256; i++) {
+            checkboxState[i] = checkboxList.get(i).isSelected();
+        } // end loop
+
+        JFileChooser fc = new JFileChooser();
+        if (fc.showSaveDialog(theFrame) == JFileChooser.APPROVE_OPTION) {
+            try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(fc.getSelectedFile()))) {
+                oos.writeObject(checkboxState);
+                System.out.println("Pattern saved!");
+            } catch(Exception e) {e.printStackTrace();}
+        }
+    } // close saveCurrentPattern
 
     public void setUpMidi() {
         try {
@@ -185,8 +294,8 @@ public class BeatBoxFinal {
         public void actionPerformed(ActionEvent a) {
             float tempoFactor = sequencer.getTempoFactor();
             sequencer.setTempoFactor((float)(tempoFactor * .97));
-        }
-    }
+        } // close actionPerformed
+    } // close inner class
 
     public class MySendListener implements ActionListener {
         public void actionPerformed(ActionEvent a) {
@@ -198,7 +307,6 @@ public class BeatBoxFinal {
                     checkboxState[i] = true;
                 }
             } // close loop
-            String messageToSend = null;
             try {
                 out.writeObject(userName + nextNum++ + ": " + userMessage.getText());
                 out.writeObject(checkboxState);
@@ -206,6 +314,39 @@ public class BeatBoxFinal {
                 System.out.println("Sorry dude. Could not send it to the server.");
             }
             userMessage.setText("");
+        } // close actionPerformed
+    } // close inner class
+
+    public class MySavePatternListener implements ActionListener {
+        public void actionPerformed(ActionEvent ev) {
+            saveCurrentPattern();
+        } // close actionPerformed
+    } // close inner class
+
+    public class MyLoadPatternListener implements ActionListener {
+        public void actionPerformed(ActionEvent ev) {
+            loadPatternFromFile();
+        } // close actionPerformed
+    } // close inner class
+
+    public class MyRandomPatternListener implements ActionListener {
+        public void actionPerformed(ActionEvent ev) {
+            for (JCheckBox c : checkboxList) {
+                c.setSelected(Math.random() < 0.3);
+            } // close loop
+        } // close actionPerformed
+    } // close inner class
+
+    public class MyFoundationPatternListener implements ActionListener {
+        public void actionPerformed(ActionEvent ev) {
+            JComboBox cb = (JComboBox) ev.getSource();
+            String style = (String) cb.getSelectedItem();
+            if (style != null) {
+                boolean[] pattern = foundationPatterns.get(style);
+                changeSequence(pattern);
+                sequencer.stop();
+                buildTrackAndStart();
+            }
         } // close actionPerformed
     } // close inner class
 
@@ -226,7 +367,6 @@ public class BeatBoxFinal {
 
     public class RemoteReader implements Runnable {
         boolean[] checkboxState = null;
-        String nameToShow = null;
         Object obj = null;
         public void run() {
             try {
@@ -241,14 +381,6 @@ public class BeatBoxFinal {
                 } // close while
             } catch(Exception ex) {ex.printStackTrace();}
         } // close run
-    } // close inner class
-
-    public class MyPlayMineListener implements ActionListener {
-        public void actionPerformed(ActionEvent a) {
-            if (mySequence != null) {
-                sequence = mySequence; // restore to my original
-            }
-        } // close actionPerformed
     } // close inner class
 
     public void changeSequence(boolean[] checkboxState) {

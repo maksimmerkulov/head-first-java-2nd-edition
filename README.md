@@ -323,5 +323,6 @@
 - 📄 Exercises from the book:
     - Page 650–656 — Final BeatBox client program
     - Page 657–658 — Final BeatBox server program
+    - Page 656 — Sharpen your pencil
 
 ![Appendix A](images/appendix-a.png)
