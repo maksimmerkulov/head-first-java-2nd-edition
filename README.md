@@ -335,5 +335,6 @@
 - 📄 Exercises from the book:
     - Page 664 — #6 Linked Invocations
     - Page 665 — #5 Anonymous and Static Nested Classes
+    - Page 666 — #5 Anonymous and Static Nested Classes, continued
 
 ![Appendix B](images/appendix-b.png)
