@@ -326,3 +326,13 @@
     - Page 656 — Sharpen your pencil
 
 ![Appendix A](images/appendix-a.png)
+
+---
+
+## 📘 Appendix B. The Top Ten Topics that almost made it into the Real Book...
+
+- 📂 Solutions are in folder: `com.headfirstjava.appendix.b`
+- 📄 Exercises from the book:
+    - Page 664 — #6 Linked Invocations
+
+![Appendix B](images/appendix-b.png)
