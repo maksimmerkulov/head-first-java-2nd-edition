@@ -336,5 +336,6 @@
     - Page 664 — #6 Linked Invocations
     - Page 665 — #5 Anonymous and Static Nested Classes
     - Page 666 — #5 Anonymous and Static Nested Classes, continued
+    - Page 671–673 — #1 Enumerations (also called Enumerated Types or Enums)
 
 ![Appendix B](images/appendix-b.png)
