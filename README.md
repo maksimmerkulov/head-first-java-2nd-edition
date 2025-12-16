@@ -334,5 +334,6 @@
 - 📂 Solutions are in folder: `com.headfirstjava.appendix.b`
 - 📄 Exercises from the book:
     - Page 664 — #6 Linked Invocations
+    - Page 665 — #5 Anonymous and Static Nested Classes
 
 ![Appendix B](images/appendix-b.png)
